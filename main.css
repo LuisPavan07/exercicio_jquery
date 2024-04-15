@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+}
+
+header {
+    margin: 8px 358px;
+    padding: 14px 0; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 151, 128);
+    color: rgb(255, 254, 254);
+    font-size: 28px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 082);
+    font-family: "Rubik Marker Hatch", system-ui;
+}
+
+form {
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 6px;
+    border-end-start-radius: 18px;
+    border-top-left-radius: 18px ;
+    font-family: "Righteous", sans-serif;
+}
+
+button {
+    margin-left: 0;
+    padding: 6px;
+    border-end-end-radius: 18px;
+    border-top-right-radius: 18px ;
+    background-color: rgba(45, 240, 38, 0.808);
+    cursor: pointer;
+    font-family: "Righteous", sans-serif;
+}
+
+button:hover {
+    background-color: rgb(0, 255, 13) ;
+}
+
+div {
+    margin: 8px 358px;
+    padding: 34px 0; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 151, 128);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 16px;
+    max-height: 384px;
+    overflow-y: auto ;
+    font-family: "Righteous", sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 082);
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.check {
+    text-decoration: 4px  line-through rgb(0, 0, 0);
+    cursor: pointer;
+}
